@@ -125,16 +125,52 @@ my_list=[2,1,3,4,"aditya","neeraj","kumar"]
     
 # for j in range()
     
-n=5
-for i in range(n):
-    for j in range(n-i):
-        print(" ",end="")
-    for k in range(i+1):
-        print("*",end="")
-    print()
+l1=[1,2,3,"aditya","aditya","sonal",10.5]
+l2=["aditya","sonal","abdul","zaheed"]
+l3=[1,2,3,4,5,6,70,8,9,10]
 
-    
 
+d1={"name":"aditya","surname":"pathak","rollno":"03"}
+#d1.clear()
+#d2=d1.copy()
+#print(d1.get("name"))
+#print(d1.items())
+# d1.pop("surname")
+# d1.popitem()
+
+# import sys
+# x=[1,2,3,4]
+# print(sys.getsizeof(x))
+
+# x=eval(input("enter first number"))
+# y=eval(input("wenter second number"))
+# if(x>y):
+#     smaller=y
+# else:
+#     smaller=x
+# for i in range(2,smaller+1):
+#     if (x%i==0) and (y%i==0):
+#         lcm=i
+#         break
+# print("LCM will be",i)
+        
+# x=10
+# def funx():
+#     print("value of x is",globals()["x"])
     
+# funx()
         
-        
+
+# def sum(*x):
+#     sum=0
+#     for i in x:
+#         sum=sum+i
+#     return sum
+
+# print(sum(1,2,2,3,4,5))
+
+def details(**n):
+    for k,v in n.items():
+        print(f"my {k} is {v}")
+    
+details(name="aditya",rollno="03")
