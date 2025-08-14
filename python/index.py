@@ -142,17 +142,17 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 # x=[1,2,3,4]
 # print(sys.getsizeof(x))
 
-# x=eval(input("enter first number"))
-# y=eval(input("wenter second number"))
-# if(x>y):
-#     smaller=y
-# else:
-#     smaller=x
-# for i in range(2,smaller+1):
-#     if (x%i==0) and (y%i==0):
-#         lcm=i
-#         break
-# print("LCM will be",i)
+x=eval(input("enter first number"))
+y=eval(input("wenter second number"))
+if(x>y):
+    smaller=y
+else:
+    smaller=x
+for i in range(2,smaller+1):
+    if (x%i==0) and (y%i==0):
+        lcm=i
+        break
+print("LCM will be",i)
         
 # x=10
 # def funx():
