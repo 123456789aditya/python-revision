@@ -1,4 +1,5 @@
 my_list=[2,1,3,4,"aditya","neeraj","kumar"]
+
 # print(my_list)
 # print(max(my_list))
 # print(min(my_list))

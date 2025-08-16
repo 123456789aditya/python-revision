@@ -142,17 +142,17 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 # x=[1,2,3,4]
 # print(sys.getsizeof(x))
 
-x=eval(input("enter first number"))
-y=eval(input("wenter second number"))
-if(x>y):
-    smaller=y
-else:
-    smaller=x
-for i in range(2,smaller+1):
-    if (x%i==0) and (y%i==0):
-        lcm=i
-        break
-print("LCM will be",i)
+# x=eval(input("enter first number"))
+# y=eval(input("wenter second number"))
+# if(x>y):
+#     smaller=y
+# else:
+#     smaller=x
+# for i in range(2,smaller+1):
+#     if (x%i==0) and (y%i==0):
+#         lcm=i
+#         break
+# print("LCM will be",i)
         
 # x=10
 # def funx():
@@ -169,8 +169,76 @@ print("LCM will be",i)
 
 # print(sum(1,2,2,3,4,5))
 
-def details(**n):
-    for k,v in n.items():
-        print(f"my {k} is {v}")
+# def details(**n):
+#     for k,v in n.items():
+#         print(f"my {k} is {v}")
     
-details(name="aditya",rollno="03")
+# details(name="aditya",rollno="03")
+
+# def add(*x):
+#     sum=0
+#     for i in x:
+#         sum=sum+i
+#     return sum
+
+# print(add(1,2,2,4,5))
+
+# def new(**n):
+#     print(n)
+    
+# new(name="neeraj",age=37,quali="37")
+
+# armstrong number
+
+# n=int(input("enter any number:"))
+# sum=0
+# order=len(str(n))
+# copy_n=n
+# while(n>0):
+#     digit=n%10
+#     sum=sum+digit**order
+#     n=n//10
+# if(sum==copy_n):
+#     print("yes")
+# else:
+#     print("no")
+    
+# n=5
+# for i  in range(n):
+#     for j in range(i+1):
+#         print("&",end="")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(n-i):
+#         print("*",end="")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(n-i):
+#         print(" ",end="")
+#     for j in range(i+1):
+#         print("*",end="")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(i):
+#         print(" ",end="")
+#     for j in range(n-i):
+#         print("*",end="")
+#     print()
+
+# n=5
+# for i in range(n):
+#     for j in range(n-i):
+#         print(" ",end="")
+#     for j in range(i):
+#         print("*",end="")
+#     for j in range(i+1):
+#         print("*",end="")
+#     print()
+    
+        
