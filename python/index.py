@@ -240,5 +240,47 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 #     for j in range(i+1):
 #         print("*",end="")
 #     print()
+
+
+# n=int(input("enter any number:"))
+# fact=1
+# i=n
+# while(i>=1):
+#     fact=i*fact
+#     i=i-1
+# print(fact)
+
+# print("check wheather the year is leap or not")
+# n=int(input("enter the year"))
+# if((n%4==0) and (n%100!=0)):
+#     print("leap year")
+# elif ((n%100==0) and (n%400==0)):
+#     print("leap year")
+# else:
+#     print("not a leap year")
     
+# l1=['name','aditya']
+# str=''.join(l1)
+# print(str)
+    
+    
+# def display(word):
+#     new_word=""
+#     for i in word:
+#         new_word=i+new_word
+#     return new_word
+
+# print(display("aditya"))
+
+# def calculate(str):
+#     digit_count,string_count=0,0
+#     for letter in str:
+#         if '0'<=letter<='9':
+#             digit_count=digit_count+1
+#         elif 'a'<=letter<='z' or 'A'<=letter<='Z':
+#             string_count=string_count+1
+#     print("dig count is",digit_count)
+#     print("str count is",string_count)
+    
+# calculate("aditya234")
         

@@ -1,16 +1,9 @@
-my_list=[2,1,3,4,"aditya","neeraj","kumar"]
-
-# print(my_list)
-# print(max(my_list))
-# print(min(my_list))
-# print(sum(my_list))
-# print(id(my_list))
-
-# my_list.append("pathak")
-# print(my_list)
-
-# my_list.sort()
-# print(my_list)
-
-# my_list.extend("kumar")
-# print(my_list)
+n=int(input("enter any number:"))
+fact=1
+i=n
+while(i>=1):
+    fact=i*fact
+    i=i-1
+print(fact)
+    
+    
