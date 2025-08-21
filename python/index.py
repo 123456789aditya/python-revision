@@ -447,26 +447,235 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 # cat=Cat()
 # cat.make_sound()     # Output: Woof!
 
-from abc import ABC,abstractmethod
+# from abc import ABC,abstractmethod
 
-class BankApp(ABC):
-    def login(self):
-        print("login")
-    def logout(self):
-        print("logout")
-    def details(self):
-        print("user details")
-    @abstractmethod
-    def database(self):
-        pass
+# class BankApp(ABC):
+#     def login(self):
+#         print("login")
+#     def logout(self):
+#         print("logout")
+#     def details(self):
+#         print("user details")
+#     @abstractmethod
+#     def database(self):
+#         pass
     
-class WebPage(BankApp):
-    def database(self):
-        print("database connected")
+# class WebPage(BankApp):
+#     def database(self):
+#         print("database connected")
         
-w1=WebPage()
-w1.login()
-w1.logout() 
-w1.details()
-w1.database()   
+# w1=WebPage()
+# w1.login()
+# w1.logout() 
+# w1.details()
+# w1.database()   
     
+    
+# from abc import ABC,abstractmethod
+
+# class BankApp(ABC):
+#     def login(self):
+#         print("self login")
+#     def logout(self):
+#         print("logout")
+#     def details(self):
+#         print("details")
+        
+#     @abstractmethod
+#     def database(self):
+#         pass
+
+# class WebPage(BankApp):
+#     def database(self):
+#         print("database printed")
+        
+# obj=WebPage()
+# obj.login()
+# obj.logout()
+# obj.details()
+# obj.database()
+
+# class A:
+#     name="aditya"
+#     city="bhopal"
+#     def __init__(self):
+#         age=22
+#         print(self.name)
+#         print(self.city)
+#         print(age)
+      
+       
+    
+ 
+        
+# obj=A()
+
+# class A:
+#     def __init__(self,name,age,city):
+#         city="bhopal"
+#         print(name,age,city)
+        
+# obj=A("aditya",24,None)
+        
+# class B:
+#     def __init__(self):
+#         def new():
+#             print("finction inside constructor")
+            
+# obj=B()
+        
+# class A:
+#     def __init__(self,value):
+#         self.value=value
+        
+#         def inner(self):
+#             return self.value*2
+#         self.calculate=inner(self)
+        
+# obj=A(2)
+# print(obj.calculate)
+
+# class A:
+#     x=10
+#     y=20
+#     def home(self):
+#         print("have a home")
+#     def car(self):
+#         print("my car")
+        
+# class B(A):
+#     def new(self):
+#         print("have indian")
+
+# obj1=B()
+# print(obj1.home())
+# print(obj1.new())
+# print(obj1.car())
+
+# single inheritance
+
+# class Parent:
+#     def fun(self,name):
+#         print("im parent")
+#         self.name=name
+        
+# class Child(Parent):
+#     def fun1(self):
+#         print("im child")
+#         print(self.name)
+        
+        
+# c1=Child()
+# c1.fun("aditya")
+# print(c1.fun1())
+
+# class Parent:
+#     x=10
+#     def car(self):
+#         print("parent class")
+        
+# class Child(Parent):
+#     def car(self):
+#         super().car()
+#         print("child class")
+        
+# obj=Child()
+# print(obj.car())
+        
+# multiple inheritance
+
+# class Parent1:
+#     def home(self):
+#         print("parent-1")
+        
+# class Parent2:
+#     def city(self):
+#         print("parent-2")
+        
+# class Child(Parent1,Parent2):
+#     def car(self):
+#         print("child car")
+        
+# obj=Child()
+# obj.city()
+# obj.home()
+
+# multilevel inheritance
+
+# class first:
+#     def home(self):
+#         print("first")
+        
+# class second(first):
+#     def city(self):
+#         print("second")
+        
+# class third(second):
+#     def state(self):
+#         print("third")
+        
+# t1=third()
+# t1.home()
+# t1.city()
+
+# class Chasis:
+#     def basic(self):
+#         print("chasis")
+        
+# class Engine(Chasis):
+#     def basic(self):
+#         super().basic()
+#         print("engine")
+        
+# class Body(Engine):
+#     def basic(self):
+#         print("car Body")
+        
+# b1=Body()
+# b1.basic()
+
+#----H
+
+# class Parent:
+#     def __init__(self,name,age):
+#             self.name=name
+#             self.age=age
+#             print("Parent Class")
+
+        
+# class Child1(Parent):
+#     def city(self):
+#         print("child 1")
+    
+# class Child2(Parent):
+#     def state(self):
+#         print("state MP")
+        
+# obj=Child2()
+# obj.home()
+from time import sleep
+from threading import Thread
+class A(Thread):
+    def show(self):
+        for i in range(5):
+            print("aditya")
+            sleep(1)
+            
+class B(Thread):
+    def show(self):
+        for i in range(5):
+            print("shivi")
+            sleep(1)
+        
+        
+obj=A()
+obj1=B()
+obj.start()
+obj1.start()
+
+
+
+        
+
+
+        
