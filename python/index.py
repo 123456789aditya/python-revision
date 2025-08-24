@@ -706,3 +706,128 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 # print(next(gen))
 
 
+# class Parent:
+#     def fun(self,name):
+#         print("im parent class")
+#         self.name=name
+        
+# class Child(Parent):
+#     def fun1(self):
+#         print("im a child class")
+#         print(self.name)
+        
+# obj=Child()
+# obj.fun("aditya")
+# obj.fun1()
+
+# class Parent:
+#     def car(self):
+#         print("parent class")
+        
+# class Child(Parent):
+#     def car(self):
+#         super().car()
+#         print("child class")
+        
+# obj=Child()
+# obj.car()
+
+
+# class Parent1:
+#     def home(self):
+#         print("parent1")
+
+# class Parent2:
+#     def home(self):
+#         print("parent2")
+        
+# class Child(Parent1,Parent2):
+#     def car(self):
+#         print("im a child class")
+        
+# obj=Child()
+# obj.home()
+
+# class Chasis:
+#     def show(self):
+#         print("chasis")
+        
+# class Body(Chasis):
+#     def show1(self):
+#         print("body")
+        
+# class Engine(Body):
+#     def show2(self):
+#         print("Engine")
+
+# e1=Engine()
+# e1.show()
+# e1.show1()
+# e1.show2()
+
+# class Parent:
+#     def display(self):
+#         print("parent class")
+
+# class Child(Parent):
+#     def new(self):
+#         print("child class")
+        
+# class Child2(Parent):
+#     def new(self):
+#         print("child class-2")
+        
+# c1=Child()
+# c2=Child2()
+# c1.new()
+# c2.new()
+# c1.display()
+# c2.display()
+
+# class A:
+#     def home(self):
+#         print("welcome")
+        
+#     def home(self,name):
+#         self.name=name
+#         print("welcome",name)
+        
+#     # def home(self,city):
+#     #     print("welcome",city)
+        
+# obj=A()
+# obj.home()
+# obj.home("Aditya")
+# # obj.home("Dehradun")
+
+# class A:
+#     _a=10
+#     __b=10
+    
+#     def show(self):
+#         print("a",self._a)
+#         print("b",self.__b)
+        
+# obj=A()
+# obj.show()
+
+# class A:
+#     def __init__(self):
+#         print("aditya")
+        
+# obj=A()
+
+# class A:
+#     age=22
+#     name="aditya"
+#     city="Bhopal"
+#     def __init__(self):
+#         print(self.age)
+#         print(self.name)
+#         print(self.city)
+        
+#     def display(self):
+#         print("display")
+        
+  
+# obj=A()
