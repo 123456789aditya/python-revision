@@ -653,29 +653,56 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
         
 # obj=Child2()
 # obj.home()
-from time import sleep
-from threading import Thread
-class A(Thread):
-    def show(self):
-        for i in range(5):
-            print("aditya")
-            sleep(1)
+# from time import sleep
+# from threading import Thread
+# class A(Thread):
+#     def show(self):
+#         for i in range(5):
+#             print("aditya")
+#             sleep(1)
             
-class B(Thread):
-    def show(self):
-        for i in range(5):
-            print("shivi")
-            sleep(1)
+# class B(Thread):
+#     def show(self):
+#         for i in range(5):
+#             print("shivi")
+#             sleep(1)
         
         
-obj=A()
-obj1=B()
-obj.start()
-obj1.start()
+# obj=A()
+# obj1=B()
+# obj.start()
+# obj1.start()
 
-
-
-        
 
 
         
+
+# def show(x):
+#     if x>5:
+#         return x
+    
+# l1=[1,2,3,4,5,6,7,8,9,10]
+# result=filter(show,l1)
+# print(list(result))
+
+# def greet(milf):
+#     def xf():
+#         print("hello")
+#         milf()
+#         print("Bye")
+#     return xf
+    
+# @greet
+# def milf():
+#     print("aditya pathak")
+
+# milf()
+
+# def generate():
+#     for i in range(5):
+#         yield(i)
+
+# gen=generate()
+# print(next(gen))
+
+
