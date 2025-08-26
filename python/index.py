@@ -831,3 +831,27 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
         
   
 # obj=A()
+
+# def greet(milf):
+#     def xf():
+#         print("good morning")
+#         milf()
+#         print("have a nice day!!")
+#     return xf
+
+# @greet
+# def display():
+#     print("aditya pathak")
+# display()
+
+class Book:
+    def welcome(self):
+        print("welcome")
+        
+    @staticmethod
+    def thanks():
+        print("thanks")
+        
+obj=Book()
+obj.welcome()
+obj.thanks()
