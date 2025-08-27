@@ -844,14 +844,47 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 #     print("aditya pathak")
 # display()
 
-class Book:
-    def welcome(self):
-        print("welcome")
+# class Book:
+#     def welcome(self):
+#         print("welcome")
         
-    @staticmethod
-    def thanks():
-        print("thanks")
+#     @staticmethod
+#     def thanks():
+#         print("thanks")
         
-obj=Book()
-obj.welcome()
-obj.thanks()
+# obj=Book()
+# obj.welcome()
+# obj.thanks()
+
+
+
+
+
+
+
+
+
+
+
+
+# def display():
+#     L1=[1,2,3,4,5,6,7,8,9,10]
+#     for x in L1:
+#         return x**2
+    
+# print(display())
+
+
+
+# class A:
+#     def new(self):
+#         print("aditya")
+        
+# class B(A):
+#     def new(self):
+#         print("python developer")
+        
+# obj=B()
+# print(obj.new)
+
+L1=[1,2,3,4,5]
