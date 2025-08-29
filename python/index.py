@@ -876,13 +876,13 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 
 
 
-class A:
-    def new(self):
-        print("aditya")
+# class A:
+#     def new(self):
+#         print("aditya")
         
-class B(A):
-    def new(self):
-        print("python developer")
+# class B(A):
+#     def new(self):
+#         print("python developer")
         
-obj=B()
-print(obj.new)
+# obj=B()
+# print(obj.new)
