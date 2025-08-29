@@ -867,12 +867,12 @@ d1={"name":"aditya","surname":"pathak","rollno":"03"}
 
 
 
-# def display():
-#     L1=[1,2,3,4,5,6,7,8,9,10]
-#     for x in L1:
-#         return x**2
+def display():
+    L1=[1,2,3,4,5,6,7,8,9,10]
+    for x in L1:
+        return x**2
     
-# print(display())
+print(display())
 
 
 
